@@ -3,7 +3,80 @@
 
 /* variables */
 :root {
-    --main-color: #F1F5F8;
-    --Roboto-font: "Roboto",
-        sans-serif;
+  --main-color: #F1F5F8;
+  --Roboto-font: "Roboto",
+    sans-serif;
+}
+
+/* gobal */
+body {
+  font-family: var(--Roboto-font);
+  background-color: #f1f5f8;
+}
+
+/* section lorem */
+.lorem {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 4.5rem;
+  letter-spacing: 3px;
+}
+
+.lorem h2 {
+  color: hsl(205, 86%, 17%);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.lorem-form {
+  margin-top: 2rem;
+}
+
+.lorem-form label {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: thin;
+  color: hsl(205, 86%, 17%);
+}
+
+input[type="number"] {
+  border: none;
+  width: 3.8rem;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.bt {
+  background-color: #49A6E9;
+  border: 2px solid #49A6E9;
+  text-transform: uppercase;
+  padding: 0.275rem 0.75rem;
+  font-weight: 100;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.bt:hover {
+  color: #49A6E9;
+  background-color: hsl(205, 86%, 81%);
+  border: 2px solid hsl(205, 86%, 81%);
 }
